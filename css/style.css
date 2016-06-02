@@ -1,0 +1,197 @@
+body {
+	background-color: #333333;
+	display: inline-block;
+}
+a {
+	padding: 20px;
+	text-decoration: none;
+	vertical-align: top;
+}
+	a:link {
+		color: white;
+		text-decoration: none;
+	}
+	a:visited {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: lightgreen;
+		text-decoration: underline;
+	}
+header {
+	background-color: #109530;
+}
+footer {
+	background-color: #262626;
+	color: white;
+	text-align: center;
+	padding: 25px;
+}
+h1 {
+	font-family: "Georgia", serif;
+	font-weight: lighter;
+	color: #109530;
+	text-align: right;
+	font-size: 48px;
+}
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	color: white;
+}
+span {
+	font-style: italic;
+}
+ul {
+	list-style: none;
+}
+
+/*/////IDs and classes/////*/
+
+#logo {
+	width: 5%;
+	padding: 10px;
+}
+#left {
+	width: 75%;
+	/*background-color: darkblue;*/
+}
+#right {
+	/*float: right;*/
+	width: 24%;
+	text-align: right;
+	/*background-color: darkgreen;*/
+}
+#left, #right {
+	display: inline-block;
+	vertical-align: middle;
+}
+#banner {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#t_left {
+	width: 50%;
+	/*background-color: darkblue;*/
+	vertical-align: top;
+	padding-top: 25px;
+}
+#t_right {
+	width: 25%;
+	text-align: left;
+	/*background-color: darkgreen;*/
+	padding-left: 10px;
+	padding-top: 200px;
+	padding-bottom: 250px;
+}
+#t_left, #t_right {
+	display: inline-block;
+	position: relative;
+}
+.foliothumbs {
+	display: inline-block;
+	float: left;
+	height: 200px;
+	padding-left: 2px
+	padding-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#folioset {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 1100px;
+	background-color: blue;
+}
+.galthumbs {
+	display: inline-block;
+	float: left;
+	height: 200px;
+	padding-left: 2px
+	padding-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#galset {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 700px;
+	background-color: blue;
+}
+
+
+/*/////Responsive Design Code/////*/
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+	#logo {
+		width: 10%;
+	}
+	#folioset {
+		padding-bottom: 2200px;
+		background-color: green;
+	}
+	.foliothumbs {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	#galset {
+	padding-bottom: 1000px;
+	background-color: green;
+	}
+	.galthumbs {
+		display: inline-block;
+		padding-left: 5px
+		padding-right: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#right {
+		float: right;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	#logo {
+		width: 15%;
+	}
+	#folioset {
+		padding-bottom: 4650px;
+		background-color: red;
+	}
+	.galthumbs {
+	/*	width: 50px;*/
+	}
+	#galset {
+		padding-bottom: 2700px;
+		background-color: red;
+	}
+	.gathumbs {
+	/*	width: 50px;*/
+	}
+	#logo {
+		width: 25%;
+	}
+	#left {
+/*		width: 40%;*/
+		background-color: lightgreen;
+	}
+	#right {
+/*		width: 60%;*/
+		float: right;
+		background-color: coral;
+	}
+	#right a {
+		font-size: 10px;
+	}
+	#t_left {
+		float: none;
+	}
+	#t_right {
+		float: none;
+	}
+}
