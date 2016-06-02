@@ -83,7 +83,7 @@ ul {
 	/*background-color: darkgreen;*/
 	padding-left: 10px;
 	padding-top: 200px;
-	padding-bottom: 250px;
+	padding-bottom: 100px;
 }
 #t_left, #t_right {
 	display: inline-block;
@@ -103,7 +103,7 @@ ul {
 	margin-bottom: 10px;
 	padding-top: 25px;
 	padding-bottom: 1100px;
-	background-color: blue;
+/*	background-color: blue;*/
 }
 .galthumbs {
 	display: inline-block;
@@ -119,7 +119,7 @@ ul {
 	margin-bottom: 10px;
 	padding-top: 25px;
 	padding-bottom: 700px;
-	background-color: blue;
+/*	background-color: blue;*/
 }
 
 
@@ -131,7 +131,7 @@ ul {
 	}
 	#folioset {
 		padding-bottom: 2200px;
-		background-color: green;
+/*		background-color: green;*/
 	}
 	.foliothumbs {
 		padding-left: 25px;
@@ -139,7 +139,7 @@ ul {
 	}
 	#galset {
 	padding-bottom: 1000px;
-	background-color: green;
+/*	background-color: green;*/
 	}
 	.galthumbs {
 		display: inline-block;
@@ -161,14 +161,14 @@ ul {
 	}
 	#folioset {
 		padding-bottom: 4650px;
-		background-color: red;
+/*		background-color: red;*/
 	}
 	.galthumbs {
 	/*	width: 50px;*/
 	}
 	#galset {
 		padding-bottom: 2700px;
-		background-color: red;
+/*		background-color: red;*/
 	}
 	.gathumbs {
 	/*	width: 50px;*/
@@ -178,12 +178,12 @@ ul {
 	}
 	#left {
 /*		width: 40%;*/
-		background-color: lightgreen;
+/*		background-color: lightgreen;*/
 	}
 	#right {
 /*		width: 60%;*/
 		float: right;
-		background-color: coral;
+/*		background-color: coral;*/
 	}
 	#right a {
 		font-size: 10px;
